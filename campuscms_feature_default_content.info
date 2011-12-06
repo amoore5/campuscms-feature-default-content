@@ -1,0 +1,8 @@
+core = "7.x"
+dependencies[] = "defaultcontent"
+description = "Default Content for Pages"
+features[content][] = "sample-page"
+name = "CampusCMS Feature Default Content"
+package = "Features"
+project = "campuscms_feature_default_content"
+version = "7.x-1.0"
