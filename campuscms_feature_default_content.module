@@ -3,4 +3,4 @@
  * @file
  */
 
-// Drupal needs this blank file.
+include_once('campuscms_feature_default_content.features.inc');
