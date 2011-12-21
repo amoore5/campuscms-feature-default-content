@@ -45,6 +45,7 @@ $content['sample-page'] = (object)array(
 <p>Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
 <h4>Header 4</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. <em>Donec</em> risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
+<h3>Example: Ordered List</h3>
 <ol>
 	<li>Apple</li>
 	<li>Facebook</li>
@@ -53,37 +54,49 @@ $content['sample-page'] = (object)array(
 	<li>Path</li>
 </ol>
 <p>This is a some <strong>text</strong>.</p>
+<h3>Example: Un-ordered List</h3>
 <ul>
-	<li>Casino</li>
-	<li>Godfather</li>
 	<li>Goodfellas</li>
+	<li>The Godfather</li>
+	<li>Back to the Future</li>
+	<li>Ferris Bueller\'s Day Off</li>
 	<li>The Dark Knight</li>
 </ul>
-<hr>
-<p>&nbsp;</p>
-<table style="width: 500px; height: 128px;" border="1" cellpadding="1" cellspacing="1">
+<h3>Example: Default table styles</h3>
+<p>All tables will be automatically styled with only the essential borders to ensure readability and maintain structure. No need to add extra classes or attributes.</p>
+<table>
 	<thead>
 		<tr>
-			<th scope="col">Header</th>
-			<th scope="col">Number</th>
+			<th>#</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Language</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>
-				<p>One</p>
-			</td>
-			<td>1.01</td>
+			<td>1</td>
+			<td>Some</td>
+			<td>One</td>
+			<td>English</td>
 		</tr>
 		<tr>
-			<td>Three</td>
-			<td>2.02</td>
+			<td>2</td>
+			<td>Joe</td>
+			<td>Sixpack</td>
+			<td>English</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Stu</td>
+			<td>Dent</td>
+			<td>Code</td>
 		</tr>
 	</tbody>
 </table>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
 ',
-        'format' => 'filtered_html',
+        'format' => 'full_html',
         'safe_value' => '<p><img src="http://placehold.it/550x300.png" /></p>
 <h2>Header 2</h2>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
@@ -91,25 +104,37 @@ $content['sample-page'] = (object)array(
 <p>Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
 <h4>Header 4</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. <em>Donec</em> risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
+<h3>Example: Ordered List</h3>
 <ol><li>Apple</li>
 <li>Facebook</li>
 <li>Twitter</li>
 <li>Google</li>
 <li>Path</li>
 </ol><p>This is a some <strong>text</strong>.</p>
-<ul><li>Casino</li>
-<li>Godfather</li>
-<li>Goodfellas</li>
+<h3>Example: Un-ordered List</h3>
+<ul><li>Goodfellas</li>
+<li>The Godfather</li>
+<li>Back to the Future</li>
+<li>Ferris Bueller\'s Day Off</li>
 <li>The Dark Knight</li>
-</ul><p> </p>
-<table border="1" cellpadding="1" cellspacing="1"><tr><th scope="col">Header</th>
-<th scope="col">Number</th>
-</tr><tbody><tr><td>
-				One
-			</td>
-<td>1.01</td>
-</tr><tr><td>Three</td>
-<td>2.02</td>
+</ul><h3>Example: Default table styles</h3>
+<p>All tables will be automatically styled with only the essential borders to ensure readability and maintain structure. No need to add extra classes or attributes.</p>
+<table><thead><tr><th>#</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Language</th>
+</tr></thead><tbody><tr><td>1</td>
+<td>Some</td>
+<td>One</td>
+<td>English</td>
+</tr><tr><td>2</td>
+<td>Joe</td>
+<td>Sixpack</td>
+<td>English</td>
+</tr><tr><td>3</td>
+<td>Stu</td>
+<td>Dent</td>
+<td>Code</td>
 </tr></tbody></table><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor.</p>
 ',
       ),
