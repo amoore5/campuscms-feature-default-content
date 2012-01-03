@@ -1,5 +1,8 @@
 core = "7.x"
 dependencies[] = "defaultcontent"
+dependencies[] = "node_export"
+dependencies[] = "node_export_features"
+dependencies[] = "uuid"
 dependencies[] = "strongarm"
 description = "Default Content for Pages"
 features[content][] = "sample-page"
