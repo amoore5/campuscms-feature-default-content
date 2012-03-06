@@ -3,8 +3,8 @@ core = 7.x
 api = 2
 
 ; Contrib modules
-projects[defaultcontent] = 1.0-alpha4
+projects[defaultcontent] = 1.0-alpha6
 
 projects[node_export] = 3.0-rc1
 
-projects[uuid] = 1.0-alpha2
+projects[uuid] = 1.0-alpha3
